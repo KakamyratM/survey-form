@@ -1,3 +1,19 @@
+
+<form
+  action="https://formspree.io/f/xeolevpp"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 ** start of index.html **
 
 <h1 id="title">Game-Based Learning Club–Exam Prep Feedback Survey</h1>
@@ -54,6 +70,7 @@
     <textarea id="comments" name="comments" placeholder="Please write your thoughts here"></textarea>
     
        <input type="submit" id="submit" value="Submit">
+
 </form>
 
 ** end of index.html **
